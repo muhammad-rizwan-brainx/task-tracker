@@ -1,0 +1,12 @@
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
