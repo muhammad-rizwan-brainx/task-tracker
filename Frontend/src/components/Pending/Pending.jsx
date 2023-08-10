@@ -1,5 +1,5 @@
 import React from "react";
-import "./Pending.css"
+import "./Pending.css";
 const Pending = () => {
   return (
     <>

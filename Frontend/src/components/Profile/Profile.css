@@ -1,20 +1,12 @@
-
-.profile{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    color: white;
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: white;
 }
 
-/* .profile-pic{
-    border-radius: 50%;
-    background-color: aquamarine;
-    width: 4rem;
-    height: 4rem;
-} */
-
-img{
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
+img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
 }

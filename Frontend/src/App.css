@@ -1,4 +1,4 @@
-.container{
+.container {
   display: grid;
   grid-template-rows: 100px 1fr;
   grid-template-columns: 200px 1fr;
@@ -6,27 +6,27 @@
   height: inherit;
 }
 
-.grid-item{
+.grid-item {
   background-color: gray;
   padding: 20px;
   font-size: 2rem;
 }
 
-.sidebar{
+.sidebar {
   grid-row: 2/-1;
   grid-column: 1/2;
   border: 2px solid white;
   border-radius: 1rem;
 }
 
-.content{
+.content {
   grid-row: 2/3;
   grid-column: 2/3;
   border: 2px solid white;
   border-radius: 1rem;
 }
 
-.topbar{
+.topbar {
   grid-column: 1/-1;
   display: flex;
   justify-content: space-between;
@@ -36,20 +36,20 @@
   border-radius: 1rem;
 }
 
-.logo-tab{
+.logo-tab {
   width: 70px !important;
   height: 7rem !important;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: white;
   font-size: 700;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
