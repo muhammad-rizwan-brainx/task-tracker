@@ -1,0 +1,30 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "Express MongoDB Task.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-rizwan-brainx/express-mongo-task.git"
+  },
+  "author": "Rizwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammad-rizwan-brainx/express-mongo-task/issues"
+  },
+  "homepage": "https://github.com/muhammad-rizwan-brainx/express-mongo-task#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
