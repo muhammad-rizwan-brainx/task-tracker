@@ -1,0 +1,41 @@
+.all-tasks {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.a-serial {
+  width: 10%;
+}
+.a-title {
+  width: 15%;
+}
+.a-description {
+  width: 60%;
+}
+.a-status {
+  width: 15%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
